@@ -2,7 +2,7 @@
 
 How to integrate iOS project with flutter project with sending message from Flutter to Native and vice versa
 
-![Image](https://github.com/deda9/iOSFlutterSample/blob/master/ScreenShots/ios.png)
+![Image](https://github.com/deda9/iOSFlutterSample/blob/master/ScreenShots/ios.png  | width=100 | height = 200)
 
 ### Install Flutter
 1- Install Flutter SDK [through](https://flutter.io/docs/get-started/install/macos) or download [through](https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.0.0-stable.zip)
