@@ -3,8 +3,6 @@
 How to integrate iOS project with flutter project with sending message from Flutter to Native and vice versa
 
 ### Install
-To install flutter and run with iOS Follow these 
-
 1- Install Flutter SDK [through](https://flutter.io/docs/get-started/install/macos) or download [through](https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.0.0-stable.zip)
 
 2- Open your flutter directory 
