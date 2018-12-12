@@ -37,7 +37,6 @@ How to integrate iOS project with flutter project with sending message from Flut
 ```
 "$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh" build
 "$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh" embed
-
 ```
 
 
@@ -47,12 +46,13 @@ How to integrate iOS project with flutter project with sending message from Flut
 2- Create your FlutterViewController 
 
 3- then present your view controller like normal
+
 `self.present(flutterViewController, animated: false, completion: nil)`
 
 
 ### Run iOS Project
 1- open the path to `.iOS` file
 
-2- Run `flutter run` or you can run it with [IntelliJ Pulign] (https://github.com/flutter/flutter-intellij)  or run directly with Xcode.
+2- Run `flutter run` or you can run it with [IntelliJ Pulign](https://github.com/flutter/flutter-intellij)  or run directly with Xcode.
 
 
