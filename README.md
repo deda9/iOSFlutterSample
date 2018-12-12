@@ -23,8 +23,10 @@ How to integrate iOS project with flutter project with sending message from Flut
 2- Create your flutter project
 `flutter create -t module my_flutter`
 
-3- In your exiting project open the podfile and set the path for the flutter sdk
+3- In your exiting project open the `podfile` and set the path for the flutter sdk
+
    Note: Change the `flutter_application_path`to match yours
+
 `  flutter_application_path = '/Users/bassemqoulta/Desktop/FlutterChannel/my_flutter'
   eval(File.read(File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')), binding)
 `
@@ -32,8 +34,10 @@ How to integrate iOS project with flutter project with sending message from Flut
 4- Run `pod install`
 
 5- Add Run Script in your existing iOS Project
-```"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh" build
+```
+"$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh" build
 "$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh" embed
+
 ```
 
 
@@ -47,7 +51,8 @@ How to integrate iOS project with flutter project with sending message from Flut
 
 
 ### Run iOS Project
-1- open the path to .iOS file
+1- open the path to `.iOS` file
+
 2- Run `flutter run` or you can run it with [IntelliJ Pulign] (https://github.com/flutter/flutter-intellij)  or run directly with Xcode.
 
 
