@@ -12,7 +12,7 @@ How to integrate iOS project with flutter project with sending message from Flut
 
 
 3- Export the path for the flutter SDK by typing this in your terminal 
-`export PATH=$PATH:\`pwd\`/flutter/bin`
+`export PATH=$PATH:``pwd``/flutter/bin`
 
 4- Check all is working fine by typing this in your terminal
 `flutter doctor`
